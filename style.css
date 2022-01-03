@@ -15,7 +15,7 @@ body{
 .wrapper{
     width: 400px;
     background-color: white;
-    height: 270px;
+    min-height: 270px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -43,6 +43,7 @@ body{
     overflow: hidden;
     outline: none;
     border: 1px solid rgba(5, 5, 5, 0.247);
+
 }
 
 .inputField:focus{
@@ -67,5 +68,72 @@ body{
     background: #43AFFC;
     border-radius: 7px;
     color: white;
+}
+
+/*  ---------------- DISPLAY WEATHER PART ---------------- */ 
+
+.weather-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.icon-middle{
+    margin: 30px 30px;
+}
+
+.temperature{
+    font-size: 70px;
+}
+
+.description, .location{
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.fa-map-marker-alt{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.bottom-info{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: row;
+    border-top: 1px solid rgba(5, 5, 5, 0.247);
+}
+
+.feels{
+    flex: 1;
+    height: 60px;
+    text-align: center;
+    border-right: 1px solid rgba(5, 5, 5, 0.247);
+}
+
+.fa-temperature-low{
+    font-size: 30px;
+    padding: 15px;
+    color: #43AFFC;
+}
+
+.details{
+    display: inline-block;
+    text-align: start;
+}
+
+.humidity{
+    flex: 1;
+    height: 60px;
+    text-align: center;
+}
+
+.fa-tint{
+    font-size: 30px;
+    padding: 15px;
+    color: #43AFFC;
 }
 
