@@ -110,9 +110,11 @@ body{
     border-top: 1px solid rgba(5, 5, 5, 0.247);
 }
 
+
+
 .feels{
     flex: 1;
-    height: 60px;
+    height: 70px;
     text-align: center;
     border-right: 1px solid rgba(5, 5, 5, 0.247);
 }
@@ -124,13 +126,14 @@ body{
 }
 
 .details{
+    margin-top: 18px;
     display: inline-block;
     text-align: start;
 }
 
 .humidity{
     flex: 1;
-    height: 60px;
+    height: 70px;
     text-align: center;
 }
 

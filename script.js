@@ -33,7 +33,7 @@ function displayWeather(data){
     const temperature = data.main.temp;
     const feels_like = data.main.feels_like;
     const humidity = data.main.humidity;
-    const description = data.weather.description;
+    const description = data.weather[0].description;
     const cityName = data.name;
     const icon = data.weather[0].icon;
 
